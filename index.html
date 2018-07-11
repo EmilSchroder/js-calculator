@@ -11,35 +11,35 @@
 <body>
 
     <div class="calculator">
-        <input type="text"> <!--Remember to disable this-->
+        <input id="MyBtn" type="text" disabled> <!--Remember to disable this-->
         <div class="row">  
-            <button class="control">AC</button>
-            <button class="control">CE</button>
+            <button class="control" id='AC' onclick="Clickon(this.id, 'input')">AC</button>
+            <button class="control" id='CE' onclick="Clickon(this.id, 'input')">CE</button>
             <button>^</button>
-            <button>/</button>
+            <button id='^' onclick="Clickon(this.id, 'input')">/</button>
         </div> 
         <div class="row">  
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>*</button>
+            <button id='7' onclick="Clickon(this.id, 'input')">7</button>
+            <button id='8' onclick="Clickon(this.id, 'input')">8</button>
+            <button id='9' onclick="Clickon(this.id, 'input')">9</button>
+            <button id='*' onclick="Clickon(this.id, 'input')">*</button>
         </div>
         <div class="row">  
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button id='4' onclick="Clickon(this.id, 'input')">4</button>
+            <button id='5' onclick="Clickon(this.id, 'input')">5</button>
+            <button id='6' onclick="Clickon(this.id, 'input')">6</button>
+            <button id='-' onclick="Clickon(this.id, 'input')">-</button>
         </div>
         <div class="row">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="big">+</button>
+            <button id='1' onclick="Clickon(this.id, 'input')">1</button>
+            <button id='2' onclick="Clickon(this.id, 'input')">2</button>
+            <button id='3' onclick="Clickon(this.id, 'input')">3</button>
+            <button class="big" id='+' onclick="Clickon(this.id, 'input')">+</button>
         </div>
         <div class="row">
-            <button>0</button>
-            <button>.</button>
-            <button>=</button>
+            <button id='0' onclick="Clickon(this.id, 'input')">0</button>
+            <button id='.' onclick="Clickon(this.id, 'input')">.</button>
+            <button id='=' onclick="Clickon(this.id, 'input')">=</button>
         </div>
     </div>
     
