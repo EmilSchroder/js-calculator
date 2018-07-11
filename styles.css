@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+
+div{
+    background-color: gold;
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.row{
+    display: block;
+    background-color: aqua;
+    width: 80%;
+    height: 50px;
+}
+
+input{
+    background-color: olive;
+    border: 1px solid;
+    border-radius: 10px;
+    direction: rtl;
+    /*box-shadow: inset 0px -2px;*/
+    font-size: 2em;
+    line-height: 30px;
+    margin: 20px 30px;
+    width: 80%;
+}
+
+button{
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+    margin: 4px;
+}
+
+.big{
+    float: right;
+    height: 90px;
+    margin-right: 8px;
+}
