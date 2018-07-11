@@ -3,36 +3,75 @@ body{
 }
 
 div{
-    background-color: gold;
+    background-color: #5d5dd5;
     width: 300px;
     height: 350px;
-    margin: 0 auto;
+    margin: auto;
+    border-top-left-radius: 50% 10px;
+    border-top-right-radius: 50% 10px;
+    border-bottom-left-radius: 50% 10px;
+    border-bottom-right-radius: 50% 10px;
+
+}
+
+.calculator{
+    box-shadow: inset 0 0 10px #000000, 0px 5px 5px #000000;
 }
 
 .row{
     display: block;
-    background-color: aqua;
+    /*background-color: aqua;*/
     width: 80%;
     height: 50px;
+    box-shadow: 0;
 }
 
 input{
-    background-color: olive;
+    background-color: #ffd24d;
     border: 1px solid;
     border-radius: 10px;
     direction: rtl;
+    box-shadow: inset 0 0 10px #886905;
     /*box-shadow: inset 0px -2px;*/
     font-size: 2em;
     line-height: 30px;
     margin: 20px 30px;
     width: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
 }
 
 button{
+    background-color: #00ccff;
+    border: 3px solid #92e2f7;
+    background: linear-gradient(#00ccff,#92e2f7);
     display: inline-block;
     width: 20%;
     height: 40px;
     margin: 4px;
+    box-shadow: 0 2px 2px #000000;
+    font-size: 1.25em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+button:active{
+    background-color: #00ccff;
+    border: 3px solid #92e2f7;
+    background: linear-gradient(#92e2f7,#00ccff);
+}
+
+.control{
+    border: 2px solid #e25c3b;
+    background-color: #e62e00;
+    background: linear-gradient(#e62e00,#e25c3b);
+
+}
+
+.control:active{
+    border: 2px solid #e25c3b;
+    background-color: #e62e00;
+    background: linear-gradient(#e25c3b,#e62e00);
 }
 
 .big{
