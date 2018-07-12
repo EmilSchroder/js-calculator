@@ -31,6 +31,7 @@ function Clickon(idButt, inTag){
         arr.push(idButt);
         temp = '';
     }
+    //Who knows? It's a mystery!
     else if(idButt==='?'){
         let a = String(Math.floor(Math.random()*100));
 
@@ -67,12 +68,15 @@ function Clickon(idButt, inTag){
                     break;
             }
         } 
-        //
+
+        arr=[];
+        arr.push(output);
+        //getting the visuals right for the negative outputs
         if (output < 0) {
             output = Math.abs(output) + '-';
           } 
-        temp = output;
-        document.getElementsByTagName(inTag)[0].value = output;     
+        temp=''
+        document.getElementsByTagName(inTag)[0].value = output;
     }
 
 
